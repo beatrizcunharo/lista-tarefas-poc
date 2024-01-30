@@ -1,0 +1,57 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  /* Utiliza 100% da altura - centraliza*/
+    width: 100%; /* Utiliza 100% da largura - centraliza*/
+}
+
+.home-container h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.home-container span {
+    margin-bottom: 28px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Utiliza 90% da largura mas, com a máxima largura, fica responsivo para telas grandes*/
+    max-width: 600px;
+}
+
+.form input {
+    border: 0;
+    margin-bottom: 12px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.form button {
+    height: 36px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #3366ff;
+    color: white;
+    font-size: 18px;
+}
+
+.form textarea {
+    margin-bottom: 12px;
+    border: 0;
+    height: 90px;
+    resize: none;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.button-link {
+    color: #b4b8bb;
+    text-decoration: none;
+    margin: 14px 0;
+    font-size: 14px;
+}
