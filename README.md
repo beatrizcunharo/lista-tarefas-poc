@@ -20,7 +20,8 @@ Versão NodeJS: 16.14.2
 - React Router;
 - Netlify;
 - SessionStorage (utilizado a sessionStorage apenas para não ficar armazenando conteúdo na memória por longo tempo);
-- Firebase.
+- Firebase Autentication;
+- Firebase Firestore.
 
 ## Como rodar?
 
